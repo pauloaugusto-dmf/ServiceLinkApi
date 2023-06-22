@@ -15,9 +15,7 @@
     </tr>
 </table>
 
-RoomMasterApi é uma API RESTful desenvolvida em Ruby on Rails com o objetivo de fornecer um sistema de reservas de salas. Este projeto foi criado como um objeto de estudo pessoal, com o intuito de explorar e aprofundar o conhecimento na construção de APIs RESTful.
-
-ServiceLinkApi é um projeto desenvolvida em Ruby on Rails com o objetivo de estudar e práticar do GraphQL, uma linguagem de consulta e manipulação de dados. A API foi criada com o propósito de permitir consultas flexíveis e eficientes, fornecendo uma alternativa poderosa às APIs REST tradicionais.
+ServiceLinkApi é um projeto desenvolvido em Ruby on Rails com o objetivo de estudar e práticar GraphQL, uma linguagem de consulta e manipulação de dados. A API foi criada com o propósito de permitir consultas flexíveis e eficientes, fornecendo uma alternativa poderosa às APIs REST tradicionais.
 
 Através do GraphQL, a ServiceLinkApi possibilita que os clientes solicitem apenas os dados necessários, evitando o problema de overfetching e underfetching comum em APIs REST. Isso proporciona uma experiência mais rápida e eficiente para os usuários, reduzindo a quantidade de dados transferidos na rede.
 
