@@ -30,3 +30,6 @@
 
 #coverage
 /coverage
+
+# Rails Best Practices
+rails_best_practices_output.html

@@ -51,7 +51,9 @@ group :development do
 end
 
 group :development do
+  gem 'bundle-audit', '~> 0.1.0'
   gem 'database_cleaner-active_record', '~> 2.1'
+  gem 'rails_best_practices', '~> 1.23'
   gem 'shoulda-matchers', '~> 5.3'
   gem 'simplecov', '~> 0.22.0'
 end
