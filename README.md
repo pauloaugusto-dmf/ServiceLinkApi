@@ -1,24 +1,26 @@
-# README
+# ServiceLink API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<table>
+    <tr>
+        <td>Ruby</td>
+        <td>3.1.2</td>
+    </tr>
+    <tr>
+        <td>Ruby on Rails</td>
+        <td>7.0.2</td>
+    </tr>
+    <tr>
+        <td>Postgresql</td>
+        <td>15</td>
+    </tr>
+</table>
 
-Things you may want to cover:
+RoomMasterApi é uma API RESTful desenvolvida em Ruby on Rails com o objetivo de fornecer um sistema de reservas de salas. Este projeto foi criado como um objeto de estudo pessoal, com o intuito de explorar e aprofundar o conhecimento na construção de APIs RESTful.
 
-* Ruby version
+ServiceLinkApi é um projeto desenvolvida em Ruby on Rails com o objetivo de estudar e práticar do GraphQL, uma linguagem de consulta e manipulação de dados. A API foi criada com o propósito de permitir consultas flexíveis e eficientes, fornecendo uma alternativa poderosa às APIs REST tradicionais.
 
-* System dependencies
+Através do GraphQL, a ServiceLinkApi possibilita que os clientes solicitem apenas os dados necessários, evitando o problema de overfetching e underfetching comum em APIs REST. Isso proporciona uma experiência mais rápida e eficiente para os usuários, reduzindo a quantidade de dados transferidos na rede.
 
-* Configuration
+Em termos de funcionalidade, a ServiceLinkApi oferece recursos para reserva de serviços online. Os usuários podem pesquisar serviços disponíveis, visualizar detalhes e realizar reservas de forma simples e intuitiva.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+O projeto ServiceLinkApi serve como um ambiente de aprendizado para explorar os conceitos fundamentais do GraphQL, como schemas, types, queries e mutations. Além disso, ele também aborda aspectos práticos, como a organização de resolvers, autenticação e autorização, otimização de consultas e outros tópicos relevantes no contexto do GraphQL.
