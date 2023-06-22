@@ -1,8 +1,8 @@
 FROM ruby:3.1.2
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
-WORKDIR /finman
-COPY Gemfile /finman//Gemfile
-COPY Gemfile.lock /finman//Gemfile.lock
+WORKDIR /servicelink
+COPY Gemfile /servicelink//Gemfile
+COPY Gemfile.lock /servicelink//Gemfile.lock
 RUN bundle install
 
 COPY entrypoint.sh /usr/bin/
