@@ -27,7 +27,7 @@ class User < ApplicationRecord
     validates :role, inclusion: { in: %w[client admin provider] }
   end
 
-  validates :phone, length: { is: 11 }, numericality: { only_integer: true }
+  validates :phone, length: { is: 11 }, numericality: { only_integer: true }, allow_nil: true
 
   private
 

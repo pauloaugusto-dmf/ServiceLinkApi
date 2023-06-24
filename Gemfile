@@ -37,7 +37,6 @@ gem 'bootsnap', require: false
 # gem "rack-cors"
 
 # GraphQL
-gem 'graphiql-rails', '~> 1.9'
 gem 'graphql', '~> 2.0'
 
 group :development, :test do
@@ -53,6 +52,7 @@ group :development do
   # gem "spring"
   gem 'annotate', '~> 3.2'
   gem 'bundle-audit', '~> 0.1.0'
+  gem 'graphiql-rails', '~> 1.9'
   gem 'rails_best_practices', '~> 1.23'
   gem 'rubocop-rails', '~> 2.20', require: false
 end
