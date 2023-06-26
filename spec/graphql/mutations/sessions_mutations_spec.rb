@@ -60,7 +60,7 @@ RSpec.describe 'SessionsMutation', type: :request do
     end
 
     context 'when token is valid' do
-			# TODO: Check why test is not working in github actions
+      # TODO: Check why test is not working in github actions
       xit 'revokes the token and returns a success message' do
         post '/graphql', params: { query: mutation }
         json = JSON.parse(response.body)
