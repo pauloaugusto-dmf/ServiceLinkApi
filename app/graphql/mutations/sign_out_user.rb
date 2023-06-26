@@ -13,7 +13,7 @@ module Mutations
         Jwt::Blacklist::RevokeToken.call(token)
         { message: 'Logout successful', errors: [] }
       else
-        { message: nil, errors: ['Invalid credentials'] }
+        { message: nil, errors: ['Invalid token'] }
       end
     end
 
